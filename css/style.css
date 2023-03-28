@@ -170,6 +170,11 @@ body {
   padding: 12px 24px;
   border: 1px solid #E7E9FC;
 }
+.mobile-btn {
+  display: flex;
+  background:none;
+  border:none;
+}
 .nav-item-btn:not(:last-child) {
   margin-right: 24px;
 }
@@ -188,7 +193,37 @@ body {
 .nav-link:focus {
   color: var(--items-active-color);
 }
+.mob-menu-list {
+  margin-top:80px;
+  margin-bottom:260px;
+  margin-left:40px;
+  margin-right:237px;
+  list-style: none;
+}
+.mob-menu-list-item:not(:last-child) {
+  padding-bottom: 40px;
+}
+.mob-menu-list:hover , 
+.mob-menu-list:focus {
+  color:var(--items-active-color);
+}
+.mob-menu-contacts {
+  margin-left:40px;
+  margin-right:51px;
+  margin-bottom:24px;
+  list-style: none;
+}
+.mob-menu-contacts-list {
+  text-decoration: none;
 
+}
+.mob-contacts {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+}
 .hero {
   text-align: center;
 }
@@ -398,6 +433,10 @@ body {
   width: 24px;
   height: 24px;
 }
+.social-list-icon-mob {
+  width: 40px;
+  height: 40px;
+}
 .footer-title {
   font-family: 'Roboto';
   font-style: normal;
@@ -425,6 +464,20 @@ body {
 .footer-social-list {
   display: flex;
   gap: 16px;
+}
+.mob-social-list {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 56px;
+}
+.mob-menu-item {
+  width: 148px;
+  height: 40px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 36px;
+  line-height: 40px;
 }
 .footer-social-list-link {
   width: 40px;
@@ -476,6 +529,15 @@ body {
   transition:  opacity 250ms cubic-bezier(0.4 , 0 , 0.2 , 1),
   visibility 250ms cubic-bezier(0.4 , 0 , 0.2 , 1);
 }
+.mob-backdrop {
+  position: fixed;
+  z-index: 100;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  /* 9o */
+}
 .modal {
   position: absolute;
   width: 408px;
@@ -488,6 +550,12 @@ body {
   padding-bottom: 36px;
   padding-left: 24px;
   padding-right: 24px;
+}
+.mob-menu {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background:var(--btn-hero-color);
 }
 .modal-form {
   display: flex;
@@ -653,6 +721,11 @@ body {
   visibility: hidden;
   pointer-events: none;
 }
+.is-open { 
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
 .team-list-img-wrapper {
   position: relative;
   overflow: hidden;
@@ -784,6 +857,9 @@ body {
   .contacts-list>.contacts-item {
     margin:0;
   }
+  .mob-menu {
+    display:none ;
+  }
 }
 
 /* desktop */
@@ -800,5 +876,13 @@ body {
   }
   .contacts {
     display: flex;
+  }
+  .contacts-list {
+
+    flex-direction: row;
+    gap: 40px;
+  }
+  .mob-menu {
+    display:none ;
   }
 }
