@@ -966,7 +966,7 @@ display:none;
   .advantages-item {
     flex-basis: calc((100%-72px) / 2);}
     .img-list {
-      display: block;
+      display: none;
     }
     .team-list {
       display: flex;
@@ -1042,6 +1042,12 @@ display:none;
       margin-left: auto;
       margin-right: auto;
     }
+    .hero {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)) ,url(../images/hero-tablet1.png);
+  }
+.advantages-link {
+  display: none;
+}
 
   }
 
@@ -1201,5 +1207,8 @@ img {
 }
 .nav-list-portfolio {
   justify-content: center;
+}
+.customers-list {
+  flex-wrap: inherit;
 }
 }
