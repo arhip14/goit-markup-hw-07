@@ -482,8 +482,6 @@ color: #4D5AE5;
 .customers-link {
   display:flex;
   justify-content: center;
-  /* flex-basis: calc((100%-16px)/2); */
-  width: calc((100% - 32px)/2);
 }
 
 
@@ -956,6 +954,9 @@ display:none;
   .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)) ,url(../images/hero-mob1.png);
   }
+  .hero-title {
+    width: 496px;
+  }
   .advantages {
     display: flex;
     gap: 24px;
@@ -971,6 +972,8 @@ display:none;
     .team-list {
       display: flex;
       flex-direction:row;
+      flex-wrap: wrap;
+      justify-content: center;
     }
     img {
       display: block;
