@@ -22,7 +22,7 @@
   <body>
     <!--------HEADER-------->
     <header class="header">
-      <div class="container main-nav">
+      <div class=" main-nav">
         <nav class="header-nav">
           <a href="./index.html" class="logo"><span>Web</span>Studio</a>
           <ul class="nav-list">
@@ -54,11 +54,11 @@
         </button>
       </div>
 
-      <div class="backdrop mob-menu is-open js-menu-container" >
-        <div class="container mobile-container">
-          </div>
-          <div>
-            <button type="button" class="modal-close-btn js-close-menu" data-modal-close>
+      <div class="mob-menu js-menu-container" >
+        <div class="container">
+
+           <div>
+            <button type="button" class="modal-close-btn js-close-menu" >
               <svg class="modal-close-btn-icon" width="8" height="8" >
                 <use  href="./images/sprite.svg#icon-close-modal"></use>
               </svg>
@@ -74,51 +74,58 @@
                 <a class="mob-menu-item mob-header-link nav-link "href="">Contacts</a>
               </li>
             </ul>
+           </div>
 
-            <ul class="mob-menu-contacts">
-              <li class="contacts-item">
-                <a href="tel:+110001111111" class="mob-contacts is-active">+11 (000) 111-11-11</a>
-              </li>
-              <li  class="contacts-item">
-                <a href="mailto:info@devstudio.com"  class="mob-contacts">info@devstudio.com</a>
-              </li>
-            </ul>
-            <ul class="mob-social-list list">
-              <li>
-                <a href="" class="social-list-link">
-                  <svg class="social-list-icon-team social-list-icon">
-                    <use href="./images/sprite.svg#icon-instagram"></use>
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a href="" class="social-list-link">
-                  <svg class="social-list-icon-team social-list-icon">
-                    <use href="./images/sprite.svg#icon-twitter"></use>
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a href="" class="social-list-link">
-                  <svg class="social-list-icon-team social-list-icon">
-                    <use href="./images/sprite.svg#icon-facebook"></use>
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a href="" class="social-list-link">
-                  <svg class="social-list-icon-team social-list-icon">
-                    <use href="./images/sprite.svg#icon-linkedin"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </div>
+            <div>
+              <address>
+                <ul class="mob-menu-contacts">
+                  <li class="contacts-item">
+                    <a href="tel:+110001111111" class="mob-contacts is-active">+11 (000) 111-11-11</a>
+                  </li>
+                  <li  class="contacts-item">
+                    <a href="mailto:info@devstudio.com"  class="mob-contacts">info@devstudio.com</a>
+                  </li>
+                </ul>
+              </address>
+              <ul class="mob-social-list list">
+                <li>
+                  <a href="" class="social-list-link">
+                    <svg class="social-list-icon-team social-list-icon">
+                      <use href="./images/sprite.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="social-list-link">
+                    <svg class="social-list-icon-team social-list-icon">
+                      <use href="./images/sprite.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="social-list-link">
+                    <svg class="social-list-icon-team social-list-icon">
+                      <use href="./images/sprite.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="social-list-link">
+                    <svg class="social-list-icon-team social-list-icon">
+                      <use href="./images/sprite.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
         </div>
       </div>
-    </header>
+      
+
+  </header>
     <main>
       <!--------HERO-------->
+
         <section class="hero">
         <div class="container hero-content">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
@@ -181,6 +188,8 @@
           </ul>
         </div>
       </section>
+
+
       <section class="img-list">
         <div class="container">
           <h2 class="title example-title">What are we doing</h2>
@@ -197,6 +206,8 @@
           </ul>
         </div>
       </section>
+
+
       <section class="team">
         <div class="container">
           <h2 class="title team-title">Our Team</h2>
@@ -401,10 +412,12 @@
             </li>
           </ul>
         </div>
-      </section> 
+      </section>
+
+
         </main> 
     <!--------FOOTER-------->
-    <!-- <footer class="footer">
+    <footer class="footer">
       <div class="container footer-wraper">
         <div class="footer-info">
           <a href="./index.html" class="logo footer-logo"><span>Web</span>Studio</a>
@@ -417,28 +430,28 @@
           <h2 class="footer-title">Social media</h2>
         <ul class="footer-social-list list">
           <li>
-            <a href="" class="footer-social-list-link">
+            <a href="" class="social-list-link">
               <svg class="social-list-icon-footer social-list-icon">
                 <use href="./images/sprite.svg#icon-instagram"></use>
               </svg>
             </a>
           </li>
           <li>
-            <a href="" class="footer-social-list-link">
+            <a href="" class="social-list-link">
               <svg class="social-list-icon-footer social-list-icon">
                 <use href="./images/sprite.svg#icon-twitter"></use>
               </svg>
             </a>
           </li>
           <li>
-            <a href="" class="footer-social-list-link">
+            <a href="" class="social-list-link">
               <svg class="social-list-icon-footer social-list-icon" >
                 <use href="./images/sprite.svg#icon-facebook"></use>
               </svg>
             </a>
           </li>
           <li>
-            <a href="" class="footer-social-list-link" >
+            <a href="" class="social-list-link" >
               <svg class="social-list-icon-footer social-list-icon">
                 <use href="./images/sprite.svg#icon-linkedin"></use>
               </svg>
@@ -465,7 +478,7 @@
       </div>
     </form>
   </div>
-</footer> -->
+</footer>
 
 
 <div class="backdrop is-hidden" data-modal>

@@ -16,15 +16,15 @@
   <body>
     <!--------HEADER-------->
     <header class="header">
-      <div class="container main-nav">
+      <div class=" main-nav">
         <nav class="header-nav">
           <a href="./index.html" class="logo"><span>Web</span>Studio</a>
           <ul class="nav-list">
             <li class="nav-item">
-              <a class="nav-link header-link" href="./index.html">Studio</a>
+              <a class="nav-link header-link studio-current " href="./index.html">Studio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link header-link  studio-current " href="./portfolio.html">Portfolio</a>
+              <a class="nav-link header-link  " href="./portfolio.html">Portfolio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link header-link " href="">Contacts</a>
@@ -41,8 +41,82 @@
             </li>
           </ul>
         </address>
+        <button class="mobile-btn js-open-menu " aria-expanded="false" type="button">
+          <svg class="menu-btn-icon" width="32" height="22">
+            <use href="./images/sprite.svg#icon-hamburger"></use>
+          </svg>
+        </button>
       </div>
-    </header>
+
+      <div class="mob-menu js-menu-container" >
+        <div class="container">
+
+           <div>
+            <button type="button" class="modal-close-btn js-close-menu" >
+              <svg class="modal-close-btn-icon" width="8" height="8" >
+                <use  href="./images/sprite.svg#icon-close-modal"></use>
+              </svg>
+            </button>
+            <ul class="mob-menu-list">
+              <li class="mob-menu-list-item">
+                <a class="mob-menu-item mob-header-link nav-link is-active" href="./index.html">Studio</a>
+              </li>
+              <li class="mob-menu-list-item">
+                <a class="mob-menu-item mob-header-link nav-link" href="./portfolio.html">Portfolio</a>
+              </li>
+              <li class="mob-menu-list-item">
+                <a class="mob-menu-item mob-header-link nav-link "href="">Contacts</a>
+              </li>
+            </ul>
+           </div>
+
+            <div>
+              <address>
+                <ul class="mob-menu-contacts">
+                  <li class="contacts-item">
+                    <a href="tel:+110001111111" class="mob-contacts is-active">+11 (000) 111-11-11</a>
+                  </li>
+                  <li  class="contacts-item">
+                    <a href="mailto:info@devstudio.com"  class="mob-contacts">info@devstudio.com</a>
+                  </li>
+                </ul>
+              </address>
+              <ul class="mob-social-list list">
+                <li>
+                  <a href="" class="social-list-link">
+                    <svg class="social-list-icon-team social-list-icon">
+                      <use href="./images/sprite.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="social-list-link">
+                    <svg class="social-list-icon-team social-list-icon">
+                      <use href="./images/sprite.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="social-list-link">
+                    <svg class="social-list-icon-team social-list-icon">
+                      <use href="./images/sprite.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="social-list-link">
+                    <svg class="social-list-icon-team social-list-icon">
+                      <use href="./images/sprite.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+        </div>
+      </div>
+      
+
+  </header>
     <main>
       <section class="portfolio">
         <div class="container">
@@ -214,28 +288,28 @@
           <h2 class="footer-title">Social media</h2>
         <ul class="footer-social-list list">
           <li>
-            <a href="" class="footer-social-list-link">
+            <a href="" class="social-list-link">
               <svg class="social-list-icon-footer social-list-icon">
                 <use href="./images/sprite.svg#icon-instagram"></use>
               </svg>
             </a>
           </li>
           <li>
-            <a href="" class="footer-social-list-link">
+            <a href="" class="social-list-link">
               <svg class="social-list-icon-footer social-list-icon">
                 <use href="./images/sprite.svg#icon-twitter"></use>
               </svg>
             </a>
           </li>
           <li>
-            <a href="" class="footer-social-list-link">
+            <a href="" class="social-list-link">
               <svg class="social-list-icon-footer social-list-icon" >
                 <use href="./images/sprite.svg#icon-facebook"></use>
               </svg>
             </a>
           </li>
           <li>
-            <a href="" class="footer-social-list-link" >
+            <a href="" class="social-list-link" >
               <svg class="social-list-icon-footer social-list-icon">
                 <use href="./images/sprite.svg#icon-linkedin"></use>
               </svg>
@@ -244,11 +318,12 @@
       </ul>
     </div>
     <form class="subscribe-form">
-      <label class="subscribe-title">Subscribe</label>
+      <label for="user-message" class="subscribe-title">Subscribe</label>
       <div class="subscribe-field">
-        <input class="subscribe-input" 
+        <input 
+        id="user-message"
+        class="subscribe-input" 
         type="email"
-        id="user-email"
         name="user-email"
         placeholder="E-mail"
         required>
@@ -262,5 +337,6 @@
     </form>
   </div>
 </footer>
+<script src="./js/mobile.js"></script>
 </body>
 </html>
