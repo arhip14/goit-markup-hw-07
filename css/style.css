@@ -870,6 +870,9 @@ display:none;
 }
 .subscribe-field {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
 }
 .subscribe-input {
   height: 40px;
