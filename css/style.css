@@ -43,10 +43,11 @@ body {
 }
 .container {
   width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 16px;
+  padding-right: 16px;
   margin-left: auto;
   margin-right: auto;
+  max-width: 428px;
 }
 
 .nav-item {
@@ -134,7 +135,7 @@ body {
 }
 .footer-descr {
   color: var(--footer-text-color);
-  width:auto;
+  width:268px;
 }
 
 /* BUTTON */
@@ -270,10 +271,11 @@ color: #4D5AE5;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.07;
-  width: 320px;
   margin-bottom: 48px;
   margin-left: auto;
   margin-right: auto;
+  max-width: 320px; 
+  width: 100%;
 }
 .title {
   color: var(--secondary-text-color);
@@ -578,7 +580,8 @@ color: #4D5AE5;
 }
 /* nav-link */
 .footer-info {
-  display:block;
+  display: flex;
+  flex-direction: column;
 }
 .soc-media {
   margin-top: 72px;
