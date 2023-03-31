@@ -268,9 +268,9 @@ color: #4D5AE5;
   color: var(--btn-hero-color);
   font-style: normal;
   font-weight: 700;
-  font-size: 56px;
+  font-size: 36px;
   line-height: 1.07;
-  width: 318px;
+  width: 320px;
   margin-bottom: 48px;
   margin-left: auto;
   margin-right: auto;
@@ -315,8 +315,8 @@ color: #4D5AE5;
 }
 
 .hero {
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding-top: 112px;
+  padding-bottom: 112px;
   background-color: var(--secondary-text-color);
   background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)) ,url(../images/hero-mob1.png);
   background-size: cover;
@@ -399,7 +399,7 @@ color: #4D5AE5;
  padding-top: 72px;
 } */
 .advantages-descr:not(:last-child) {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .example-pictures {
   display: flex;
@@ -1060,7 +1060,11 @@ display:none;
 .customers-link {
   width: calc((100% - 72px) / 3);
 }
-  }
+.hero {
+  padding-top: 112px;
+  padding-bottom: 112px;
+}
+}
 
 
 /* desktop */
@@ -1227,5 +1231,9 @@ img {
 .customers-link {
   display:flex;
   justify-content: center;
+}
+.hero {
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 }
