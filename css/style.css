@@ -1012,8 +1012,6 @@ display:none;
     }
     .footer-descr {
       color: var(--footer-text-color);
-      width:262px;
-      margin-left:80px;
     }
     .footer-title {
       font-family: 'Roboto';
@@ -1057,8 +1055,8 @@ display:none;
   display: none;
 }
 .advatages-list {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  margin-top: 96px;
+  margin-bottom: 96px;
 }
 .customers-link {
   width: calc((100% - 72px) / 3);
