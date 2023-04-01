@@ -329,6 +329,7 @@ color: #4D5AE5;
   .hero {
     background-image: url("../images/hero-mob2.png");
   }
+
 }
 @media (min-devise-pixel-ratio:2),
 (mmin-resolution:192dpi),
@@ -1340,4 +1341,7 @@ img {
 .filter-item:not(:last-child) {
   margin-bottom:0;
 }
+.overlay {
+  display:block;
+  }
 }
