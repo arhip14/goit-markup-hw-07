@@ -135,7 +135,7 @@ body {
 }
 .footer-descr {
   color: var(--footer-text-color);
-  text-align: center;
+  width: 286px;
 }
 
 /* BUTTON */
@@ -581,9 +581,6 @@ color: #4D5AE5;
 
 }
 /* nav-link */
-.footer-info {
-  width:268px
-}
 .soc-media {
   margin-top: 72px;
 }
