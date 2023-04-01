@@ -1028,8 +1028,11 @@ display:none;
       margin-bottom: 96px;
     }
     .footer-wraper {
-      display:flex;
-    }
+      display: flex;
+      justify-content: inherit;
+      align-items: inherit;
+  }
+
     .soc-media {
       margin-left: 120px;
     }
@@ -1070,7 +1073,7 @@ display:none;
     }
     .subscribe-form {
       margin-top: 72px;
-      margin-left: 96px;
+      margin-left: 0;
   }
     .footer-logo {
       justify-content: inherit;
