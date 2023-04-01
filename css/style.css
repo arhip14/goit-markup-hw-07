@@ -985,7 +985,7 @@ display:none;
     width: 736px;
     row-gap: 74px;
     flex-direction: inherit;
-    gap:24;
+    gap:24px;
   }
   .advantages-link {
     display:flex;
