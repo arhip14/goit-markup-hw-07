@@ -1164,6 +1164,8 @@ display:none;
   .advantages {
     display: flex;
     gap: 24px;
+    width: 1128px;
+    flex-wrap: nowrap;
   }
   .advantages-link {
     display:flex;
@@ -1179,6 +1181,8 @@ display:none;
 
 .img-list {
   display: block;
+  margin-bottom: 120px;
+  padding-bottom: 0;
 }
 .team-list {
   display: flex;
@@ -1288,8 +1292,8 @@ img {
   flex-wrap: inherit;
 }
 .advatages-list {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  margin-top: 120px;
+    margin-bottom: 120px;
 }
 .customers-link {
   display:flex;
