@@ -1186,7 +1186,12 @@ display:none;
 }
 .team-list {
   display: flex;
-  flex-direction:row;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.customers {
+  margin-top: 120px;
+  margin-bottom: 120px;
 }
 img {
   display: block;
@@ -1289,7 +1294,7 @@ img {
   justify-content: center;
 }
 .customers-list {
-  flex-wrap: inherit;
+  flex-wrap: nowrap;
 }
 .advatages-list {
   margin-top: 120px;
