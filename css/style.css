@@ -354,9 +354,9 @@ color: #4D5AE5;
 }
 
 
-.team-item:not(:last-child) {
+/* .team-item:not(:last-child) {
   margin-bottom: 72px;
-}
+} */
 .social-list-link {
   width: 40px;
   height: 40px;
@@ -944,6 +944,9 @@ display:none;
 .is-active {
   font-size: 36px;
 }
+.team-item:not(:last-child) {
+  margin-bottom: 72px;
+}
 
 }
 /* tablet */
@@ -987,6 +990,12 @@ display:none;
     flex-direction: inherit;
     gap:24px;
   }
+  .team-item:not(:last-child) {
+  margin-bottom: 64px;
+}
+.team-item {
+  margin-bottom: 64px;
+}
   .advantages-link {
     display:flex;
   }
@@ -1002,6 +1011,7 @@ display:none;
       flex-direction:row;
       flex-wrap: wrap;
       justify-content: center;
+      gap: 24px;
     }
     img {
       display: block;
