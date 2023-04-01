@@ -270,7 +270,7 @@ color: #4D5AE5;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.07;
+  line-height: 1.11;
   margin-bottom: 48px;
   margin-left: auto;
   margin-right: auto;
@@ -376,7 +376,9 @@ color: #4D5AE5;
   padding-bottom: 120px;
 } */
 .advantages {
-  gap: 24px;
+  gap: 72px;
+  display: flex;
+  flex-direction: column;
 }
 
 .advantages-descr {
@@ -929,10 +931,7 @@ display:none;
     width: 318px;
 }
 
-.advantages {
-  gap: 24px;
-  margin-top: 0;
-}
+
 .advantages-item {
   /* flex-basis: calc((100%-72px) / 4); */
   margin-top:72px;
@@ -969,6 +968,7 @@ display:none;
   }
   .hero-title {
     width: 496px;
+    line-height: 1.07;
   }
   .advantages {
     display: flex;
@@ -1108,6 +1108,7 @@ display:none;
   }
   .hero-title {
     width: 500px;
+    line-height: 1.07;
   }
   .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)) ,url(../images/people-office.png);
