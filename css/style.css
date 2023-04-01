@@ -578,7 +578,10 @@ color: #4D5AE5;
   width: 64px;
 }
 .footer-wraper {
-display: flex;
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .footer-info {
 
