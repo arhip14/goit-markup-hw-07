@@ -446,8 +446,8 @@ color: #4D5AE5;
   padding: 32px 16px;
 }
 .portfolio {
-  padding-top: 48px;
-  padding-bottom: 48px;
+  margin-top: 48px;
+  margin-bottom: 48px;
 }
 .customers-descr {
   font-family: 'Roboto';
@@ -1109,8 +1109,6 @@ display:none;
 .portfolio {
   margin-top: 64px;
   margin-bottom: 96px;
-  padding-top: 0;
-  padding-bottom: 0;
 }
 .filter-list {
   display: flex;
