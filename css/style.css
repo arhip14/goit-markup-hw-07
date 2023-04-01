@@ -1035,6 +1035,7 @@ display:none;
     }
     .subscribe-field {
       display: flex;
+      flex-direction: row;
     }
     .subscribe-btn {
       margin-top: 0;
@@ -1065,10 +1066,12 @@ display:none;
     }
     .soc-media {
       margin-top:0;
+      margin-left: 24px;
     }
     .subscribe-form {
-      margin-top: 0;
-    }
+      margin-top: 72px;
+      margin-left: 96px;
+  }
     .footer-logo {
       justify-content: inherit;
     }
