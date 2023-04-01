@@ -1205,6 +1205,7 @@ img {
 }
 .footer-wraper {
   display:flex;
+  flex-wrap: nowrap;
 }
 .footer-logo {
     color: var(--teaam-section-color);
@@ -1233,7 +1234,7 @@ img {
 .footer-descr {
   color: var(--footer-text-color);
   width:262px;
-  margin-left:80px;
+  margin-left:0;
 }
 .footer-title {
   font-family: 'Roboto';
