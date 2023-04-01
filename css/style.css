@@ -578,6 +578,9 @@ color: #4D5AE5;
   width: 64px;
 }
 .footer-wraper {
+display: flex;
+}
+.footer-info {
 
 }
 /* nav-link */
@@ -1006,6 +1009,7 @@ display:none;
   .advantages-item {
     width: calc((100% - 48px) / 2);
     margin-top: 0;
+    padding-bottom: 72px;
 }
     .img-list {
       display: none;
@@ -1158,8 +1162,9 @@ display:none;
     display:none ;
   }
   .hero-title {
-    width: 500px;
+    max-width: 496px;
     line-height: 1.07;
+    font-size: 56px;
   }
   .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)) ,url(../images/people-office.png);
