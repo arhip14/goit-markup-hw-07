@@ -339,8 +339,8 @@ color: #4D5AE5;
 }
 .team {
   background-color: var(--teaam-section-color);
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 .team-list {
   flex-direction: column;
@@ -996,6 +996,10 @@ display:none;
 .team-item {
   margin-bottom: 64px;
 }
+.team {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
   .advantages-link {
     display:flex;
   }
@@ -1135,7 +1139,6 @@ display:none;
 @media screen and (min-width: 1200px) {
   .container {
     max-width:1158px;
-    outline: teal solid 2px;
   }
   .nav-list {
     display: flex;
@@ -1315,5 +1318,9 @@ img {
 .footer {
   padding-top: 100px;
   padding-bottom: 100px;
+}
+.team {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 }
