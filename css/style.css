@@ -250,12 +250,12 @@ body {
 }
 .is-active {
   width: 337px;
-height: 40px;
+  height: 40px;
 
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 600;
-font-size: 36px;
+font-size: 29px;
 line-height: 40px;
 /* identical to box height, or 111% */
 
@@ -344,12 +344,16 @@ color: #4D5AE5;
 }
 .team-list {
   flex-direction: column;
-  gap: 24px;
+  display: flex;
+  align-items: center;
 }
 .team-item {
   background-color: var(--btn-hero-color);
   text-align: center;
+  width: 264px;
 }
+
+
 .team-item:not(:last-child) {
   margin-bottom: 72px;
 }
@@ -386,7 +390,7 @@ color: #4D5AE5;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   color:var(--secondary-text-color);
   text-align: center;
 
@@ -538,7 +542,7 @@ color: #4D5AE5;
 }
 .mob-social-list {
   display:flex;
-  gap: 56px;
+  gap: 45px;
 }
 .mob-menu-item {
   width: 148px;
@@ -918,7 +922,6 @@ display:none;
 @media screen and (min-width: 480px) {
   .container {
     max-width:428px;
-    display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -935,6 +938,13 @@ display:none;
 .advantages-item {
   /* flex-basis: calc((100%-72px) / 4); */
   margin-top:72px;
+}
+.mob-social-list {
+  display: flex;
+  gap: 56px;
+}
+.is-active {
+  font-size: 36px;
 }
 
 }
