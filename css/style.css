@@ -529,8 +529,8 @@ color: #4D5AE5;
 .footer {
   display: flex;
   background-color: var(--secondary-text-color);
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 .footer-title {
   margin-bottom: 16px;
@@ -1276,5 +1276,9 @@ img {
 }
 .modal-form-chek-desc {
   font-size: 12px;
+}
+.footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 }
