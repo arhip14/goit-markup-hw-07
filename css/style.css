@@ -1337,4 +1337,7 @@ img {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+.filter-item:not(:last-child) {
+  margin-bottom:0;
+}
 }
