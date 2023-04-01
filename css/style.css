@@ -614,7 +614,7 @@ color: #4D5AE5;
 }
 .modal {
   position: absolute;
-  width: 392px;
+  width: 95%;
   height: 584px;
   background: #FCFCFC;
   top:50%;
@@ -652,6 +652,7 @@ color: #4D5AE5;
   flex-direction: column;
   justify-content: space-between;
   overflow-y: auto;
+  align-items: flex-start;
 }
 .modal-form {
   display: flex;
@@ -774,7 +775,7 @@ color: #4D5AE5;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 8px;
   line-height: 1.33;
   color: #757575;
   align-items: center;
@@ -983,6 +984,8 @@ display:none;
     flex-wrap: wrap;
     width: 736px;
     row-gap: 74px;
+    flex-direction: inherit;
+    gap:24;
   }
   .advantages-link {
     display:flex;
@@ -1086,6 +1089,9 @@ display:none;
 .hero {
   padding-top: 112px;
   padding-bottom: 112px;
+}
+.modal-form-chek-desc {
+  font-size: 12px;
 }
 }
 
@@ -1257,5 +1263,8 @@ img {
 .hero {
   padding-top: 188px;
   padding-bottom: 188px;
+}
+.modal-form-chek-desc {
+  font-size: 12px;
 }
 }
