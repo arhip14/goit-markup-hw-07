@@ -1109,6 +1109,8 @@ display:none;
 .portfolio {
   margin-top: 64px;
   margin-bottom: 96px;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 .filter-list {
   display: flex;
