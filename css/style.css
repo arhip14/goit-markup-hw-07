@@ -1031,6 +1031,7 @@ display:none;
       display: flex;
       justify-content: inherit;
       align-items: inherit;
+      max-width: 552px;
   }
 
     .soc-media {
