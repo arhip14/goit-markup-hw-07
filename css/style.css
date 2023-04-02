@@ -320,14 +320,14 @@ color: #4D5AE5;
   padding-top: 112px;
   padding-bottom: 112px;
   background-color: var(--secondary-text-color);
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)) ,url(../images/hero-mob1.png);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)) ,url(../images/hero-mob1.jpg);
   background-size: cover;
 }
 @media (min-devise-pixel-ratio:1),
 (mmin-resolution:96dpi),
 (min-resolution:1ddpx) {
   .hero {
-    background-image: url("../images/hero-mob2.png");
+    background-image: url("../images/bg1-1x.jpg");
   }
 
 }
@@ -335,7 +335,7 @@ color: #4D5AE5;
 (mmin-resolution:192dpi),
 (min-resolution:2ddpx) {
   .hero {
-    background-image: url("../images/hero-mob2.png");
+    background-image: url("../images/bg1-2x.jpg");
   }
 }
 .team {
