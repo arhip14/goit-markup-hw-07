@@ -1214,7 +1214,9 @@ display:none;
 }
 img {
   display: block;
-  max-width: 100%;
+}
+.example-pictures-list {
+  width: 360px;
 }
 .modal {
   width: 408px;
@@ -1302,6 +1304,7 @@ img {
 }
 .filter-item {
   flex-basis: calc((100% - 48px) / 3);
+  width: 396px;
 }
 .nav-list-portfolio {
   display:flex;
