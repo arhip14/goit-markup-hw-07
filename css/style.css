@@ -1147,6 +1147,11 @@ display:none;
   width: calc((100% - 24px)/2);
   flex-basis: inherit;
 }
+.customers-list {
+  max-width: 582px;
+}
+.customers-item {
+width: 100%;
 }
 
 
