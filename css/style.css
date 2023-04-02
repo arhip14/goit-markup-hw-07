@@ -352,7 +352,7 @@ color: #4D5AE5;
 .team-item {
   background-color: var(--btn-hero-color);
   text-align: center;
-  width: 100%;
+  max-width: 264px;
 }
 
 
@@ -440,7 +440,7 @@ color: #4D5AE5;
   color:var(--primary-text-color)
 }
 .filter-item {
-  flex-basis: calc((100% - 48px) / 3);
+  max-width: 396px;
 }
  .portfolio-item {
   border:1px solid var(--footer-text-color);
@@ -930,11 +930,12 @@ display:none;
 @media screen and (min-width: 480px) {
   .container {
     max-width:428px;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
     flex-wrap: wrap;
   
   }
+
   .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)) ,url(../images/hero-mob1.png);
   }
@@ -966,7 +967,7 @@ display:none;
 @media screen and (min-width: 768px) {
   .container {
     max-width:768px;
-    display: block;
+
   }
   .nav-list {
     display: flex;
