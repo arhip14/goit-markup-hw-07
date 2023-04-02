@@ -544,7 +544,7 @@ color: #4D5AE5;
 }
 .mob-social-list {
   display:flex;
-  gap: 45px;
+  gap: 42px;
 }
 .mob-menu-item {
   width: 148px;
@@ -1023,6 +1023,7 @@ display:none;
   }
   .contacts-list>.contacts-item {
     margin:0;
+    margin-bottom: 4px;
   }
   .mob-menu {
     display:none ;
