@@ -961,6 +961,9 @@ display:none;
 .modal-form-chek-desc {
   font-size: 12px;
 }
+.modal {
+  overflow-y: auto;
+}
 
 }
 /* tablet */
@@ -968,6 +971,9 @@ display:none;
   .container {
     max-width:768px;
 
+  }
+  .modal {
+    overflow-y: auto;
   }
   .nav-list {
     display: flex;
@@ -1147,11 +1153,13 @@ display:none;
   width: calc((100% - 24px)/2);
   flex-basis: inherit;
 }
-.customers-list {
-  max-width: 582px;
-}
+
 .customers-item {
 width: 100%;
+}
+.customer-container {
+max-width: 586px;
+}
 }
 
 
@@ -1159,6 +1167,9 @@ width: 100%;
 @media screen and (min-width: 1200px) {
   .container {
     max-width:1158px;
+  }
+  .modal {
+    overflow-y: auto;
   }
   .nav-list {
     display: flex;
