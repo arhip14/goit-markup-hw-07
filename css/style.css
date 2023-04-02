@@ -929,7 +929,7 @@ display:none;
 /* mobile */
 @media screen and (min-width: 480px) {
   .hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)) ,url(../images/hero-mob1.png);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)) ,url(../images/hero-mob1.jpg);
   }
     
     @media (min-device-pixel-ratio: 2),
