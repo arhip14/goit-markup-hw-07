@@ -1257,6 +1257,7 @@ max-width: 586px;
   font-size: 20px;
   line-height: 24px;
   margin-top: 8px;
+  text-align: left;
   }
 
 .img-list {
@@ -1325,6 +1326,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   color:var(--btn-hero-color);
+  text-align: left;
 }
 .footer-social-list {
   display: flex;
