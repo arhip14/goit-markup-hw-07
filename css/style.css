@@ -933,9 +933,9 @@ display:none;
 
 /* mobile */
 @media screen and (min-width: 480px) {
-  .hero {
+  /* .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)) ,url(../images/hero-mob1.jpg);
-  }
+  } */
     
   @media (min-device-pixel-ratio: 1),
   (min-resolution: 86dpi),
@@ -989,10 +989,10 @@ display:none;
 }
 /* tablet */
 @media screen and (min-width: 768px) {
-  .hero {
+  /* .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)) ,url(../images/hero-mob1.jpg);
   }
-    
+     */
   @media (min-device-pixel-ratio: 1),
   (min-resolution: 86dpi),
   (min-resolution: 1dppx) {
