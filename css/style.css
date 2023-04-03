@@ -347,7 +347,7 @@ color: #4D5AE5;
   flex-direction: column;
   display: flex;
   align-items: center;
-  gap:24px
+  gap:72px
 }
 .team-item {
   background-color: var(--btn-hero-color);
@@ -1049,13 +1049,13 @@ display:none;
     width: 736px;
     row-gap: 74px;
     flex-direction: inherit;
-    gap:24px;
+    gap: 72px 24px;
   }
   .team-item:not(:last-child) {
   gap: 24px;
 }
 .team-item {
-  margin-bottom: 64px;
+  /* margin-bottom: 64px; */
   width: 264px;
 }
 .team {
@@ -1080,7 +1080,7 @@ display:none;
       flex-direction:row;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 24px;
+      gap: 64px 24px;
     }
     img {
       display: block;
