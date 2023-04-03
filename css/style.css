@@ -1118,6 +1118,8 @@ display:none;
       font-size: 16px;
       line-height: 1.5;
       color:var(--btn-hero-color);
+    text-align: left;
+
     }
     .footer-social-list {
       display: flex;
