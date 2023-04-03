@@ -468,7 +468,7 @@ color: #4D5AE5;
   display: flex;
   justify-content: center;
   align-items: center;
-  column-gap: 24px;
+  column-gap: 16px;
   flex-wrap: wrap;
   row-gap: 72px;
 }
@@ -488,7 +488,7 @@ color: #4D5AE5;
 .customers-link {
   display:flex;
   justify-content: center;
-  width: calc((100% - 24px) / 2)
+  width: calc((100% - 16px) / 2)
 }
 
 
@@ -938,25 +938,20 @@ display:none;
   }
     
   @media (min-device-pixel-ratio: 1),
-  (min-resolution: 96dpi),
+  (min-resolution: 86dpi),
   (min-resolution: 1dppx) {
-  .hero {
-    background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)),
-      url(../images/bg1-1x.jpg);
-  }
-}
-@media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
     .hero {
-      background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)),
-        url(../images/bg1-2x.jpg);
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)) ,url(../images/bg1-1x.jpg);
     }
   }
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)) ,url(../images/bg1-2x.jpg);
+      }
+    }
+
   .container {
     max-width:428px;
     /* align-items: center;
@@ -999,25 +994,20 @@ display:none;
   }
     
   @media (min-device-pixel-ratio: 1),
-  (min-resolution: 96dpi),
+  (min-resolution: 86dpi),
   (min-resolution: 1dppx) {
-  .hero {
-    background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)),
-      url(../images/bg2-1x.jpg);
-  }
-}
-@media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
     .hero {
-      background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)),
-        url(../images/bg2-2x.jpg);
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)) ,url(../images/bg2-1x.jpg);
     }
   }
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)) ,url(../images/bg2-2x.jpg);
+      }
+    }
+
   .container {
     max-width:768px;
 
