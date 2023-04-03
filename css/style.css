@@ -927,6 +927,9 @@ display:none;
   height:24px;
   fill: #FFFFFF;
 }
+/* .customers-container {
+  width: 192px;
+} */
 
 /* mobile */
 @media screen and (min-width: 480px) {
@@ -960,9 +963,6 @@ display:none;
   .hero-title {
     width: 318px;
 }
-/* .customers-container {
-  max-width: 192px;
-} */
 
 /* .advantages-item {
   flex-basis: calc((100%-72px) / 4);
