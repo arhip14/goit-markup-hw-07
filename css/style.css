@@ -1012,6 +1012,9 @@ display:none;
     max-width:768px;
 
   }
+  .contacts-item > .contacts-link {
+    font-size: 12px;
+  }
   .modal {
     overflow-y: auto;
   }
