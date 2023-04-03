@@ -1063,7 +1063,9 @@ display:none;
   .advantages-item {
     width: calc((100% - 48px) / 2);
     margin-top: 0;
-    padding-bottom: 72px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
     .img-list {
       display: none;
@@ -1195,6 +1197,9 @@ width: 100%;
 }
 .customer-container {
 max-width: 586px;
+}
+.advantages-descr {
+  text-align: left;
 }
 }
 
