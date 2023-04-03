@@ -398,8 +398,8 @@ color: #4D5AE5;
 
 }
 .advatages-list {
-  margin-top: 96px;
-  margin-bottom: 96px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 /* .advantages-descr:not(:first-child) {
  padding-top: 72px;
