@@ -394,9 +394,11 @@ color: #4D5AE5;
   font-size: 36px;
   line-height: 1.11;
   color:var(--secondary-text-color);
-  text-align: center;
-
 }
+.advantages-sub-descr {
+  font-weight: 500;
+}
+
 .advatages-list {
   padding-top: 96px;
   padding-bottom: 96px;
@@ -461,8 +463,8 @@ color: #4D5AE5;
   margin-bottom: 72px;
 }
 .customers {
-  padding-top: 130px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 .customers-list {
   display: flex;
@@ -1235,6 +1237,9 @@ max-width: 586px;
   .container {
     max-width:1158px;
   }
+  .contacts-item > .contacts-link {
+    font-size: 16px;
+}
   .modal {
     overflow-y: auto;
   }
@@ -1279,7 +1284,9 @@ max-width: 586px;
   margin-top: 8px;
   text-align: left;
   }
-
+  .advantages-sub-descr {
+    font-weight: 400;
+  }
 .img-list {
   display: block;
   margin-bottom: 120px;
