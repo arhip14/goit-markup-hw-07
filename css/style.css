@@ -394,6 +394,7 @@ color: #4D5AE5;
   font-size: 36px;
   line-height: 1.11;
   color:var(--secondary-text-color);
+  text-align: center;
 }
 .advantages-sub-descr {
   font-weight: 500;
@@ -1072,7 +1073,7 @@ display:none;
     margin-top: 0;
     display: flex;
     flex-direction: column;
-    gap: 8px;
+
 }
     .img-list {
       display: none;
